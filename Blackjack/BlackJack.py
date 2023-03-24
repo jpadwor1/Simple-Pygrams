@@ -58,13 +58,8 @@ def play_game():
         computer_score = calculate_score(computer_cards)
     print(f"Your final hand is {user_cards} and final score was: {user_score}.")
     print(f"The computers final hand is {computer_cards} and final score was: {computer_score}.")
-    print(compare(user_score,computer_score))
+    print(compare(user_score, computer_score))
+
 
 while input("Do you want to play a game of blackjack? Y or No:") == "y":
     play_game()
-
-
-
-
-
-
